@@ -1,6 +1,18 @@
 # iGameDeployable
 all deployable features; branch for updates
 
+## CONFIG VARS:
+1. FOR [IGDB](https://api-docs.igdb.com) API connection:
+- ***CLIENT_ID***
+- ***CLIENT_SECRET***
+2. FOR DEPLOYMENT:
+- ***DATABASE_URL*** to connect to app's database
+- ***FLASK_APP*** for entry into the application "factory"
+- ***FLASK_CONFIG*** to select execution configuration, eg, Heroku
+- ***REDIS_TLS_URL*** memoizing functions
+- ***REDIS_URL*** memoizing functions
+- ***SECRET_KEY*** Flask requirement for data security
+
 ## includes
 - registration
 - login
@@ -17,4 +29,4 @@ all deployable features; branch for updates
 - this branch is read-only; create a new branch for updates
 
 ### BUGS
-
+- todo
