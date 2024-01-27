@@ -12,6 +12,7 @@ all deployable features; branch for updates
 - ***REDIS_TLS_URL*** memoizing functions
 - ***REDIS_URL*** memoizing functions
 - ***SECRET_KEY*** Flask requirement for data security
+- ***SALT*** for user password security
 
 ## includes
 - registration
